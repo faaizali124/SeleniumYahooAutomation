@@ -1,3 +1,39 @@
+# Java
+*.class
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+.mvn/timing.properties
+
+# Test reports
+surefire-reports/
+failsafe-reports/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Selenium/Artifacts
+reports/
+screenshots/
+
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
